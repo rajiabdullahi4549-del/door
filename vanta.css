@@ -1,0 +1,117 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    
+}
+
+.cain {
+    display: flex;
+    align-items: center;
+}
+
+.open {
+    display: flex;
+    gap: 20px;
+}
+
+.abel button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.high {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    width: 90%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 30px;
+    justify-self: center;
+    margin: 30px;
+    padding: 10px 5px 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 30px;
+    /* viewport height */
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.links {
+    gap: 20px;
+    display: flex;
+}
+.right button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.log {
+    background-color: none;
+}
+
+.sign {
+    background-color: black;
+    color: white;
+}
+.sign:hover {
+    background-color: #262D3E;
+}
+
+.child {
+    width: 40%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    flex-shrink: 0;    
+}
+
+.flex-mother {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    scrollbar-width: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* Tablets */
+@media (min-width: 481) and (max-width: 1024px) {
+    .cotainer {
+        background-color: blue;
+    }
+
+    .links {
+        /* display: none; */
+        visibility: hidden;
+    }
+    
+    .menu {
+        display: block;
+    }
+}
+
+/* phones */
+@media (min-width: 0px) {
+    .cotainer {
+        background-color: blue;
+    }
+
+    
+}
